@@ -1,0 +1,13 @@
+#include <iostream>
+#include <fstream>
+#include  <string>
+
+int main(){
+  std::ofstream out ("test.txt");
+  std::string s;
+  if(out.is_open()){
+    out << "안녕, 지금부터 C++ 언어를 배울거야 공부하고 연습해서 좋은 결과를 만들거야.";
+    
+  }
+  return 0;
+}
